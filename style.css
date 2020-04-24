@@ -1,0 +1,46 @@
+body {
+    background-color: #A1AAED;
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+    color: blue;
+    font-family: Arial;
+    /* Шрифт */
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+#block1 {
+    width: 80%;
+    margin: 0 auto;
+    /* блок по центру */
+    background-image: url(1-tekstura-chernogo-melkogo-karbona.png);
+    padding: 15px;
+    border: 5px solid rgb(58, 161, 144);
+    border-radius: 30px;
+}
+
+b u {
+    color: blue;
+}
+
+a {}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    transform: scale(1);
+    transition: 2s all;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
